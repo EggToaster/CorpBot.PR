@@ -5,6 +5,13 @@ from   urllib.parse import quote
 
 def setup(bot):
     settings = bot.get_cog("Settings")
+    if True:
+        if not bot.settings_dict.get("suppress_disabled_warnings"):     
+            print("\n!! e926 Cog has been disabled !!")
+            print("* Enabling this Cog is highly discouraged due to amount of suspicious artwork on e926.")
+            print("* If you still want to enable this Cog, please manually edit the code to enable it.")
+            print("* Blacklisting might be implimented in the future - but for now, it's disabled.")
+        return
     bot.add_cog(E926(bot, settings))
 
 class E926(commands.Cog):
