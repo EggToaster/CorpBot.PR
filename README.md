@@ -1,5 +1,6 @@
-# CorpBot.py
+# CorpBot.py - Spice branch
 A *slightly* less clumsy python bot for discord
+This version includes certain features that CorpNewt might not want, and it's meant to be a messy experimental place
 
 ***
 
